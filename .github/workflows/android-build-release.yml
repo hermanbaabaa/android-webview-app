@@ -34,7 +34,7 @@ jobs:
           fi
 
       - name: Upload release APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: app-release-apk
           path: |
